@@ -1,0 +1,187 @@
+/* root (segun chatgpt es obligatorio) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: #f0d0da;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px;
+    background-color: #0a0608;
+    border-bottom: 1px solid #3a1f2a;
+}
+
+nav a {
+    color: #c89aaa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ff85a1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 950px;
+    margin: 40px auto 30px;
+    padding: 30px;
+    background-color: #1c1118;
+    border-radius: 16px;
+    border: 1px solid #3a1f2a;
+}
+
+header img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #3a1f2a;
+    flex-shrink: 0;
+}
+
+.subtitulo {
+    font-size: 13px;
+    color: #ff85a1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+.header-desc {
+    color: #c89aaa;
+    font-size: 15px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 24px;
+    max-width: 950px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+    align-items: flex-start;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+article {
+    background-color: #1c1118;
+    padding: 20px 24px;
+    border-radius: 12px;
+    border: 1px solid #3a1f2a;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+article:hover {
+    background-color: #251620;
+    border-color: #5a2f40;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ffb3c6;
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+}
+
+article p {
+    color: #f0d0da;
+    font-size: 15px;
+}
+
+aside {
+    width: 270px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.aside-bloque {
+    background-color: #120d10;
+    padding: 18px 20px;
+    border-radius: 12px;
+    border: 1px solid #3a1f2a;
+}
+
+.aside-bloque h3 {
+    font-family: 'Playfair Display', serif;
+    color: #ff85a1;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #3a1f2a;
+}
+
+.aside-bloque ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.aside-bloque ul li {
+    font-size: 14px;
+    color: #f0d0da;
+}
+
+.aside-bloque ul li span {
+    color: #c89aaa;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #c89aaa;
+    border-top: 1px solid #3a1f2a;
+}
+
+.biografia-main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.biografia-main h1 {
+    margin-bottom: 8px;
+}
